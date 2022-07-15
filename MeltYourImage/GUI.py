@@ -183,28 +183,6 @@ class App(customtkinter.CTk):
                                                       command=self.button_event)
         self.button_compress.grid(row=1, column=0, columnspan=2, pady=10, padx=20)
 
-
-
-        # self.switch_1 = customtkinter.CTkSwitch(master=self.frame_right,
-        #                                         text="CTkSwitch")
-        # self.switch_1.grid(row=4, column=2, columnspan=1, pady=10, padx=20, sticky="we")
-        #
-        # self.switch_2 = customtkinter.CTkSwitch(master=self.frame_right,
-        #                                         text="CTkSwitch")
-        # self.switch_2.grid(row=5, column=2, columnspan=1, pady=10, padx=20, sticky="we")
-
-
-
-        # self.check_box_1 = customtkinter.CTkCheckBox(master=self.frame_right,
-        #                                              text="CTkCheckBox")
-        # self.check_box_1.grid(row=6, column=0, pady=10, padx=20, sticky="w")
-        #
-        # self.check_box_2 = customtkinter.CTkCheckBox(master=self.frame_right,
-        #                                              text="CTkCheckBox")
-        # self.check_box_2.grid(row=6, column=1, pady=10, padx=20, sticky="w")
-
-
-
         self.button_exit = customtkinter.CTkButton(master=self.frame_process,
                                                    text="Exit",
                                                    border_width=2,  # <- custom border_width
@@ -217,16 +195,15 @@ class App(customtkinter.CTk):
         # ----------------------------------- SET DEFAULT VALUES -----------------------------------
         # ------------------------------------------------------------------------------------------
         self.optionmenu_appearance_mode.set("Dark")
-        # self.button_3.configure(state="disabled", text="Disabled CTkButton")
-        # self.combobox_1.set("CTkCombobox")
-        # self.radio_button_1.select()
-        # self.slider_1.set(0.2)
-        # self.slider_2.set(0.7)
-        # self.progressbar.set(0.5)
-        # self.switch_2.select()
-        # self.radio_button_3.configure(state=DISABLED)
-        # self.check_box_1.configure(state=DISABLED, text="CheckBox disabled")
-        # self.check_box_2.select()
+        self.combobox_1.set("CTkCombobox")
+        self.radio_button_1.select()
+        self.slider_1.set(0.2)
+        self.slider_2.set(0.7)
+        self.progressbar.set(0.5)
+        self.switch_2.select()
+        self.radio_button_3.configure(state=DISABLED)
+        self.check_box_1.configure(state=DISABLED, text="CheckBox disabled")
+        self.check_box_2.select()
 
     # ==========================================================================================
     # ======================================== FUNCTIONS =======================================
