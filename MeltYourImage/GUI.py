@@ -198,12 +198,6 @@ class App(customtkinter.CTk):
         self.combobox_1.set("CTkCombobox")
         self.radio_button_1.select()
         self.slider_1.set(0.2)
-        self.slider_2.set(0.7)
-        self.progressbar.set(0.5)
-        self.switch_2.select()
-        self.radio_button_3.configure(state=DISABLED)
-        self.check_box_1.configure(state=DISABLED, text="CheckBox disabled")
-        self.check_box_2.select()
 
     # ==========================================================================================
     # ======================================== FUNCTIONS =======================================
