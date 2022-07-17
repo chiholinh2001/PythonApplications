@@ -132,7 +132,7 @@ class App(customtkinter.CTk):
         # ================== FRAME_RIGHT ==================
 
         # ------------------ frame_image ------------------
-        self.default_image = ImageTk.PhotoImage(Image.open("images\image2.jpg"))
+        self.default_image = ImageTk.PhotoImage(Image.open("images\default.jpg"))
         self.label_image = customtkinter.CTkLabel(self.frame_image, image=self.default_image)
         self.label_image.grid(row=0, sticky="nsew", padx=5, pady=5)
 
